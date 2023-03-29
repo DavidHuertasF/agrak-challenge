@@ -1,0 +1,46 @@
+.user-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    font-family: sans-serif;
+  }
+  
+  .user-list th,
+  .user-list td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .user-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .user-list img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 16px;
+  }
+  
+  .action-button.edit {
+    margin-left: 5px;
+  }
+  
+  .action-button.delete {
+    margin-left: 10px;
+  }
+  
+  .action-button:hover {
+    text-decoration: underline;
+  }
+  
